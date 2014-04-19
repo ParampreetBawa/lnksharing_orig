@@ -12,7 +12,7 @@ class LoginController {
         if(user && user.password.equals(password)){
             session.setAttribute("user",username)
             session.setAttribute("role",username.equals("admin@intelligrape.com")? "admin":"user")
-            render view :'home'
+            redirect controller: 'user',action: 'dashboard'
         }else if(user){
             render view :'login',model :[errors:'Invalid Password']
         }else{
