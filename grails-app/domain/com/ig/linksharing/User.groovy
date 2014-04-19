@@ -7,4 +7,7 @@ class User {
     static constraints = {
         email(email: true,nullable: false,blank: false)
     }
+    String toString(){
+        return email
+    }
 }

@@ -9,4 +9,7 @@ class Subscription implements Serializable{
     static mapping = {
         id composite: ['user','topic']
     }
+    String toString(){
+        return topic.toString()
+    }
 }

@@ -10,4 +10,7 @@ class Resource {
     static mapping = {
         tablePerHierarchy(false)
     }
+    String toString(){
+        return title
+    }
 }
