@@ -13,6 +13,9 @@ class UserController {
                 action: dashboard()
         )
     }*/
+    def home(){
+        forward action: 'dashboard'
+    }
     def dashboard(){
         User user = User.findByEmail(session.user)
         def resources = []

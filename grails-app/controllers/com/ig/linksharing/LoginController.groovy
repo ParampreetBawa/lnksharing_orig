@@ -19,4 +19,8 @@ class LoginController {
             render view :'login',model :[errors:'Invalid Username']
         }
     }
+    def logout(){
+        session.invalidate()
+        redirect controller: 'login' ,action: 'index'
+    }
 }

@@ -13,13 +13,16 @@
 </head>
 
 <body>
-<g:render template="showReadingItems"></g:render>
-<table><caption>Subscribed topics</caption><tr><th>Topic</th><th>Owner By Me</th></tr>
+%{--<g:render template="showReadingItems"></g:render>--}%
+%{--<table><caption>Subscribed topics</caption><tr><th>Topic</th><th>Owner By Me</th></tr>
     <g:each in="${topics}" var="topic">
         <tr>
             <td>${topic.name}</td>
             <td>${topic.createdBy.email.equals(session.user) ? "Yes" : "No"}</td></tr>
     </g:each>
-</table>
+</table>--}%
+<ls:unreadItems resources="${resources}" countt="5"/>
+<ls:subscribedTopics topics="${topics}"/>
+<ls:ownedTopics topic="${topics}"></ls:ownedTopics>
 </body>
 </html>
