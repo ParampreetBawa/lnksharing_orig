@@ -74,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="53" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.57260275" vertical-offset="361" max-vertical-offset="885">
+            <state line="38" column="53" selection-start="2095" selection-end="2095" vertical-scroll-proportion="-8.708333" vertical-offset="361" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -108,7 +108,19 @@
       <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/User.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.0612245" vertical-offset="0" max-vertical-offset="285">
+            <state line="12" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resource.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Resource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.4852941" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -173,9 +185,7 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/com/ig/linksharing/UtilController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/login/login.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Topic.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Resource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Subscription.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/stats.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/invalid.gsp" />
@@ -191,6 +201,8 @@
         <option value="$PROJECT_DIR$/grails-app/views/user/_showReadingItems.gsp" />
         <option value="$PROJECT_DIR$/grails-app/taglib/com/ig/linksharing/ApplicationTagLib.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/User.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Resource.groovy" />
       </list>
     </option>
   </component>
@@ -704,12 +716,12 @@
       <updated>1397878699957</updated>
       <workItem from="1397878704094" duration="599000" />
       <workItem from="1397884501196" duration="25972000" />
-      <workItem from="1397972380003" duration="5438000" />
+      <workItem from="1397972380003" duration="5678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32009000" />
+    <option name="totallyTimeSpent" value="32249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1304" height="773" extended-state="6" />
@@ -971,16 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Resource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="105" selection-end="114" vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Subscription.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="43" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="315">
@@ -1053,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.0612245" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/_showTopics.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="8" selection-start="277" selection-end="277" vertical-scroll-proportion="-1.9148936" vertical-offset="0" max-vertical-offset="180">
@@ -1106,9 +1098,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="53" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.57260275" vertical-offset="361" max-vertical-offset="885">
+        <state line="38" column="53" selection-start="2095" selection-end="2095" vertical-scroll-proportion="-8.708333" vertical-offset="361" max-vertical-offset="885">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/ig/linksharing/Resource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="268" selection-end="268" vertical-scroll-proportion="0.4852941" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
